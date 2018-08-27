@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  /* !!! */
+}
+
+.centered {
+  margin: 0 auto;
+  text-align: left;
+  width: 800px;
+}
+
+/deep/ .carousel-item.active {
+  margin: 0 auto;
+  padding: 0;
+}
